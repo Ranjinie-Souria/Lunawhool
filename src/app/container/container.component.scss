@@ -1,0 +1,42 @@
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #736AA7;
+    border-radius: 10px;
+    border: solid #352F5B 2px;
+    padding: 28px;
+    object-fit: contain;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.game-btn {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
+
+.btn-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.health-container {
+    width: 100%;
+    height: 30%;
+    margin: 33px;
+    padding: 10px;
+    background-color: #F08CBC;
+    border: 3px solid #E11979;
+    border-radius: 0 0 18px 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    object-fit: contain;
+    flex-direction: row;
+}

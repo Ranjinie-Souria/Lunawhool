@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="health-container">
+        <app-health-bar [health]="playerHealth"></app-health-bar>
+    </div>
+    <div class="btn-container">
+        <app-buttons class="game-btn" [type]='ButtonType.ATTACK'></app-buttons>
+        <app-buttons class="game-btn" [type]='ButtonType.DEFEND'></app-buttons>
+        <app-buttons class="game-btn" [type]='ButtonType.HEAL'></app-buttons>
+    </div>
+</div>
