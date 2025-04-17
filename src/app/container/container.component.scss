@@ -2,9 +2,9 @@
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    background-color: #736AA7;
+    background-color: var(--background-light);
     border-radius: 10px;
-    border: solid #352F5B 2px;
+    border: solid var(--background-dark) 2px;
     padding: 28px;
     object-fit: contain;
     display: flex;
@@ -31,8 +31,8 @@
     height: 30%;
     margin: 33px;
     padding: 10px;
-    background-color: #F08CBC;
-    border: 3px solid #E11979;
+    background-color: var(--secondary);
+    border: 3px solid var(--primary);
     border-radius: 0 0 18px 18px;
     display: flex;
     flex-wrap: wrap;

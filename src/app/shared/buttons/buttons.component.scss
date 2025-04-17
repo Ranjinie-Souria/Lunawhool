@@ -1,6 +1,6 @@
 .btn-game {
-    background-color: #FFB6D9;
-    border: 5px dashed #FF67B0;
+    background-color: var(--color-accent);
+    border: 5px dashed var(--color-highlight);
     border-radius: 0.25rem;
     cursor: pointer;
     width: 100%;
@@ -9,8 +9,8 @@
 }
 
 .btn-game:hover {
-    background-color: #e9ecef;
-    border-color: #ced4da;
+    background-color: var(--color-light);
+    border-color: var(--color-border);
 }
 
 .btn-img {
